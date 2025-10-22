@@ -25,7 +25,7 @@ export default function Home() {
             />
           </div>
           <h1 className="text-black dark:text-white text-[1.8rem] xs:text-[2.4rem] font-semibold leading-[150%]">
-            Hey! 👋 I'm{" "}
+            Hey! 👋 I&apos;m{" "}
             <span className="text-accent-light dark:text-accent-dark">
               Paul.
             </span>
