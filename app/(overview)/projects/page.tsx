@@ -10,7 +10,6 @@ import profile from "@/app/lib/profile.json";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { FaGithub } from "react-icons/fa6";
-import { SiFrontendmentor } from "react-icons/si";
 import GoogleAnalytics from "@/app/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
@@ -32,15 +31,10 @@ export const metadata: Metadata = {
 
 export const revalidate = 86400;
 
-const { github, frontendmentor } = profile.handles.portfolios;
+const { github } = profile.handles.portfolios;
 
 async function Projects() {
   const socials = [
-    {
-      href: frontendmentor,
-      icon: <SiFrontendmentor />,
-      handle: `/${frontendmentor.split("/").pop()}`,
-    },
     {
       href: github,
       icon: <FaGithub />,
