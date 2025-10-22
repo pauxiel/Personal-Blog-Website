@@ -25,26 +25,33 @@ export default function Home() {
             />
           </div>
           <h1 className="text-black dark:text-white text-[1.8rem] xs:text-[2.4rem] font-semibold leading-[150%]">
-            Hey! 👋 Myself{" "}
+            Hey! 👋 I'm{" "}
             <span className="text-accent-light dark:text-accent-dark">
-              Anshuman.
+              Paul.
             </span>
             <br />
             It’s nice to meet you!
           </h1>
           <p>
-            I am a Computer Science Student who aspires to be a Software
-            Developer. I write blogs and articles about web dev, computer
-            science and my experiences in general.
+            I am a Software Engineer and Cloud Developer passionate about building scalable, 
+            secure, and cost-efficient solutions in AWS. My core strengths lie in serverless 
+            architectures, DevOps practices, and cloud-native development, with hands-on experience 
+            designing systems that improve performance and reduce operational overhead.
           </p>
           <SectionLink href="/blogs">My Blogs {"-->"}</SectionLink>
         </Section>
         <Section>
           <SectionHeading>What I Do</SectionHeading>
           <p>
-            Being focused on Web Development, my skills involve building
-            beautiful websites and robust web applications. Apart from this, I
-            can also build Telegram Chatbots and write Web Scrapping scripts.
+            In my recent projects, I have deployed static websites with global reach using AWS S3, 
+            CloudFront, and Route 53, automated CI/CD pipelines to accelerate releases, and leveraged 
+            serverless frameworks to cut infrastructure costs by up to 30 percent. I work on containerized 
+            applications and serverless full-stack solutions, not just static websites.
+          </p>
+          <p>
+            I am AWS Certified Solutions Architect Associate, strengthening my expertise in designing 
+            highly available and fault-tolerant systems. I enjoy transforming business requirements 
+            into reliable cloud solutions that deliver measurable impact.
           </p>
           <p>I usually work with these technologies.</p>
           <div className="flex flex-wrap gap-[1.6rem] xs:gap-[2.5rem] sm:gap-[3.5rem] justify-center">
@@ -65,7 +72,7 @@ export default function Home() {
               );
             })}
           </div>
-          <p>Here are some of the things that I have worked on till now.</p>
+          <p>Here are some of the cloud solutions and projects I have worked on.</p>
           <SectionLink href="/projects">
             Checkout my Projects {"-->"}
           </SectionLink>
@@ -73,20 +80,23 @@ export default function Home() {
         <Section>
           <SectionHeading>Connect With Me</SectionHeading>
           <p>
-            Looking for a web developer? I am open to internships, jobs,
-            freelance projects and open-source collaboration. Reach out if you
-            have anything and think I might be appropriate. I would love to hear
-            from you.
+            My goal is to continue growing as a cloud solutions engineer and contribute to teams 
+            where innovation and scalability are at the heart of technology strategy. I welcome 
+            opportunities to collaborate on challenging projects that push the boundaries of what 
+            cloud can do.
           </p>
-          <p>You can find me here.</p>
+          <p>
+            Alongside my technical work, I regularly share tutorials and write articles that 
+            simplify complex cloud topics for developers and businesses. You can find me here.
+          </p>
           <div className="flex gap-[3rem] text-[2rem] xs:text-[2.5rem] text-accent-light dark:text-accent-dark">
-            <Link href="https://twitter.com/AnshumanMahato_">
+            <Link href={profile.handles.socials.twitter}>
               <FaXTwitter />
             </Link>
-            <Link href="https://www.linkedin.com/in/anshuman-mahato/">
+            <Link href={profile.handles.socials.linkedin}>
               <FaLinkedin />
             </Link>
-            <Link href="mailto:anshuman.mahato0935@gmail.com">
+            <Link href={`mailto:${profile.email}`}>
               <IoMailOutline />
             </Link>
           </div>

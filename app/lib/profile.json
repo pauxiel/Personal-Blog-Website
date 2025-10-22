@@ -1,53 +1,62 @@
 {
-  "name": "Anshuman Mahato",
-  "headline": "Web Developer | Blogger | Open Source Enthusiast",
-  "location": "India",
+  "name": "Paulo Obayuwana",
+  "headline": "Cloud Developer | AWS Solutions Architect | Building Scalable Serverless Systems",  
+  "location": "Niagara falls, Canada",
   "photo": "",
-  "email": "hi@anshumanmahato.me",
+  "email": "obayuwanap@gmail.com",
   "profession": [
-    "Web Developer",
-    "Frontend DEveloper",
-    "Backend Developer",
-    "Full Stack Developer"
+    "Cloud Developer",
+    "AWS Solutions Architect",
+    "DevOps Engineer",
+    "Serverless Developer",
+    "Software Engineer"
   ],
   "skills": [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
+    "AWS",
+    "Amazon Web Services",
+    "Serverless Architecture",
+    "Lambda Functions",
+    "API Gateway",
+    "DynamoDB",
+    "S3",
+    "CloudFormation",
+    "CDK",
+    "EC2",
+    "VPC",
+    "IAM",
+    "CloudWatch",
+    "DevOps",
+    "CI/CD",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "Python",
     "Node.js",
-    "Express",
-    "MongoDB",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
     "Git",
-    "GitHub",
-    "VS Code",
-    "Netlify",
-    "Vercel",
-    "Heroku",
-    "Figma",
-    "Photoshop",
-    "Illustrator"
+    "GitHub Actions"
   ],
   "projects": [
-    "https://github.com/AnshumanMahato/connect4",
-    "https://github.com/AnshumanMahato/Happy-Birthday-Card",
-    "https://github.com/AnshumanMahato/space-travel-frontendmentor",
-    "https://github.com/AnshumanMahato/rock-paper-scissors"
+    "https://github.com/pauxiel/your-project-1",
+    "https://github.com/pauxiel/your-project-2",
+    "https://github.com/pauxiel/your-project-3",
+    "https://github.com/pauxiel/your-project-4"
   ],
   "handles": {
     "socials": {
-      "facebook": "https://www.facebook.com/anshuman.mahato.0935",
-      "instagram": "https://www.instagram.com/anshuman_mahato",
-      "linkedin": "https://www.linkedin.com/in/anshuman-mahato",
-      "twitter": "https://twitter.com/AnshumanMahato_"
+      "instagram": "https://www.instagram.com/pauxiel/",
+      "linkedin": "https://www.linkedin.com/in/obayuwana-paul/",
+      "twitter": "https://x.com/obayuwanapaul"
     },
     "blogs": {
-      "hashnode": "https://hashnode.com/@AnshumanMahato",
-      "dev": "https://dev.to/anshumanmahato"
+      "hashnode": "https://hashnode.com/@Pauxiel",
+      "dev": "https://dev.to/pauxiel"
     },
     "portfolios": {
-      "github": "https://www.github.com/AnshumanMahato",
-      "frontendmentor": "https://www.frontendmentor.io/profile/AnshumanMahato"
+      "github": "https://www.github.com/pauxiel"
     }
   }
 }

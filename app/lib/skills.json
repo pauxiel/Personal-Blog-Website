@@ -1,62 +1,58 @@
 [
   [
-    "bootstrap",
-    "bootstrap.svg"
+    "AWS",
+    "aws.svg"
   ],
   [
-    "css",
-    "css.svg"
+    "Python",
+    "python.svg"
   ],
   [
-    "docker",
-    "docker.svg"
+    "TypeScript",
+    "typescript.svg"
   ],
   [
-    "express",
-    "express.svg"
-  ],
-  [
-    "html",
-    "html.svg"
-  ],
-  [
-    "javascript",
+    "JavaScript",
     "javascript.svg"
   ],
   [
-    "mongodb",
-    "mongodb.svg"
-  ],
-  [
-    "mysql",
-    "mysql.svg"
-  ],
-  [
-    "nextjs",
-    "nextjs.svg"
-  ],
-  [
-    "nodejs",
-    "nodejs.svg"
-  ],
-  [
-    "postgresql",
-    "postgresql.svg"
-  ],
-  [
-    "react",
+    "React",
     "react.svg"
   ],
   [
-    "redux",
-    "redux.svg"
+    "Next.js",
+    "nextjs.svg"
   ],
   [
-    "sass",
-    "sass.svg"
+    "Node.js",
+    "nodejs.svg"
   ],
   [
-    "tailwind",
+    "Docker",
+    "docker.svg"
+  ],
+  [
+    "Kubernetes",
+    "kubernetes.svg"
+  ],
+  [
+    "Terraform",
+    "terraform.svg"
+  ],
+  [
+    "AWS Lambda",
+    "lambda.svg"
+  ],
+  [
+    "GitHub",
+    "github.svg"
+  ],
+  [
+    "Serverless",
+    "serverless.svg"
+  ],
+  [
+    "Tailwind CSS",
     "tailwind.svg"
   ]
 ]

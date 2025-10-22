@@ -17,8 +17,8 @@
   --color-background-dark: #18181b;
   --color-background-light: #fafafa;
 
-  --color-accent-light: #17c964;
-  --color-accent-dark: #45d483;
+  --color-accent-light: #2563eb;
+  --color-accent-dark: #3b82f6;
 
   --breakpoint-*: initial;
   --breakpoint-xs: 375px;

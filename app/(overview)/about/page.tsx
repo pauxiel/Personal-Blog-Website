@@ -54,17 +54,17 @@ function About() {
       <GoogleAnalytics />
       <PageBanner
         title="About Me"
-        coverImage="/assets/images/aboutcover.png"
-        coverImageAlt="next"
+        coverImage="/assets/images/LinkedIn Header Design Blue.jpg"
+        coverImageAlt="LinkedIn Header Design Blue"
       />
       <Section>
-        <PageHeading>I&apos;m Anshuman.</PageHeading>
+        <PageHeading>I&apos;m Paul.</PageHeading>
         <div className="flex flex-col gap-[2rem]">
           <p>
-            Hi 👋 My name is Anshuman Mahato. I am a full-stack web developer
-            specializing in the MERN stack. I&apos;m also a passionate blogger
-            who loves sharing insights on web development, technology, and my
-            personal experiences as a developer. You can read my articles&nbsp;
+            Hi 👋 My name is Paul Obayuwana. 
+            I specialize in serverless architectures, DevOps practices, and cloud-native development.
+            I&apos;m also a passionate blogger who loves sharing insights on cloud technologies, 
+            AWS services, and my experiences in the tech industry. You can read my articles&nbsp;
             <Link
               className=" font-bold dark:hover:text-accent-dark hover:text-accent-light"
               href="/blogs"
@@ -75,30 +75,26 @@ function About() {
           <p>A little bit about myself:</p>
           <ul className="list-disc pl-[2.5rem] flex flex-col gap-[2rem] [&>li]:pl-[8px]">
             <li>
-              I am from Jamshedpur, Jharkhand. I am pursuing my Master&apos;s in
-              Computer Applications at the National Institute of Technology,
-              Jamshedpur, and I&apos;m in my final year.
+              I&apos;m a passionate football fan (the real football, not American! ⚽) 
+              supporting Chelsea Football Club and following transfer news.
             </li>
             <li>
-              I&apos;m an open-source enthusiast, actively contributing to
-              various projects and collaborating with the developer community.
+              I enjoy anime, with Attack on Titan and Demon Slayer being my favorites. 
             </li>
             <li>
-              I enjoy sketching in my free time, which helps me to relax and
-              stay creative.
+              I&apos;m an avid reader focused on theology, psychology, and relationships. 
             </li>
             <li>
-              I also enjoy bike rides, a great way to unwind and explore new
-              places.
+              I enjoy diverse music - from Nigerian Christian music to classic 60s-80s 
+              hits like ABBA, Fleetwood Mac, and Frankie Valli.
             </li>
-            <li>I like reading about psychology and philosophy.</li>
           </ul>
 
           <p>
-            I&apos;m passionate about solving problems through code and
-            continuously learning new technologies. I&apos;m excited about the
-            future of web development and look forward to connecting with
-            like-minded individuals in the tech community.
+            I&apos;m passionate about solving complex problems through cloud architecture 
+            and continuously exploring new AWS services and cloud technologies. I&apos;m 
+            excited about the future of serverless computing and look forward to connecting 
+            with fellow cloud engineers and like-minded individuals in the tech community.
           </p>
         </div>
       </Section>
