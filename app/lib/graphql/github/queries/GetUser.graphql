@@ -1,5 +1,5 @@
 query UserByLogin($login: String!) {
-  user(login: "AnshumanMahato") {
+  user(login: $login) {
     name
   }
 }

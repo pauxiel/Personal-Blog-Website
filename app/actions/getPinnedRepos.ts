@@ -20,7 +20,7 @@ async function getPinnedRepos(): Promise<Project[] | null> {
     body: JSON.stringify({
       query: PinnedReposByUserDocument,
       variables: {
-        login: "AnshumanMahato",
+        login: "pauxiel",
       },
     }),
     cache: "force-cache",

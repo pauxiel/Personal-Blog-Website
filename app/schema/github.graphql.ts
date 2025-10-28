@@ -31235,7 +31235,7 @@ export const RepositoryDetailsFragmentDoc = new TypedDocumentString(`
     `, {"fragmentName":"RepositoryDetails"}) as unknown as TypedDocumentString<RepositoryDetailsFragment, unknown>;
 export const UserByLoginDocument = new TypedDocumentString(`
     query UserByLogin($login: String!) {
-  user(login: "AnshumanMahato") {
+  user(login: $login) {
     name
   }
 }
