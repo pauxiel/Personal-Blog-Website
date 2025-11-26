@@ -39,6 +39,13 @@ export default function Home() {
             designing systems that improve performance and reduce operational overhead.
           </p>
           <SectionLink href="/blogs">My Blogs {"-->"}</SectionLink>
+          <a
+            href="/assets/resume.pdf"
+            download
+            className="text-accent-light dark:text-accent-dark text-[1.4rem] font-medium"
+          >
+            Download Resume {"-->"}
+          </a>
         </Section>
         <Section>
           <SectionHeading>What I Do</SectionHeading>

@@ -23,7 +23,7 @@ async function getPinnedRepos(): Promise<Project[] | null> {
         login: "pauxiel",
       },
     }),
-    cache: "force-cache",
+    next: { revalidate: 3600 }, // Revalidate every hour
   });
 
   const {
