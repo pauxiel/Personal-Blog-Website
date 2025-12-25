@@ -16,6 +16,7 @@
     "codegen-github": "graphql-codegen --config codegen-github.yml"
   },
   "dependencies": {
+    "@graphql-typed-document-node/core": "^3.2.0",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "classnames": "^2.5.1",
