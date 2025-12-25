@@ -14,11 +14,11 @@
   --color-secondary-dark: #a1a1aa;
   --color-secondary-light: #71717a;
 
-  --color-background-dark: #18181b;
-  --color-background-light: #fafafa;
+  --color-background-dark: #0F172A;
+  --color-background-light: #F8F3EC;
 
-  --color-accent-light: #2563eb;
-  --color-accent-dark: #3b82f6;
+  --color-accent-light: #FF9900;
+  --color-accent-dark: #FFB84D;
 
   --breakpoint-*: initial;
   --breakpoint-xs: 375px;

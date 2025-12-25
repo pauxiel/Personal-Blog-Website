@@ -2,6 +2,8 @@ import getPostsFeedData from "@/app/actions/getPostsFeedData";
 import { constructRSSFeedFromPosts } from "@/app/utils/feed";
 import { notFound } from "next/navigation";
 
+export const dynamic = "force-dynamic";
+
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const after = searchParams.get("after");

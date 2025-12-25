@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "@/app/components/Footer";
-import { inter } from "@/app/components/fonts";
+import { recursive } from "@/app/components/fonts";
 import Header from "@/app/components/Header";
 import profile from "@/app/lib/profile.json";
 import "./globals.css";
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en" className="">
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${recursive.className} antialiased`}>
         <div
           id="root"
           className="relative flex flex-col justify-between items-center min-h-screen w-full"

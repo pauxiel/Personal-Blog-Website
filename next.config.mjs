@@ -15,6 +15,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "cdn.hashnode.com",
       },
+      {
+        protocol: "https",
+        hostname: "public-files.gumroad.com",
+      },
     ],
   },
   async rewrites() {
