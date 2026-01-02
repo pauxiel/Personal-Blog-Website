@@ -59,6 +59,14 @@ function Header() {
                   Blogs
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/freelance"
+                  className="hover:text-accent-light dark:hover:text-accent-dark transition-colors duration-200"
+                >
+                  Freelance
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>
@@ -101,6 +109,14 @@ function Header() {
                   className="hover:text-accent-light dark:hover:text-accent-dark transition-colors duration-200"
                 >
                   Blogs
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/freelance"
+                  className="hover:text-accent-light dark:hover:text-accent-dark transition-colors duration-200"
+                >
+                  Freelance
                 </Link>
               </li>
             </ul>
