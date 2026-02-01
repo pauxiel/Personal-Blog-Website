@@ -16,7 +16,7 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 const bookData = {
   title: "Serverless Essentials: An AWS Guide for Beginners and Leaders",
   author: "Paul Obayuwana",
-  price: "$18 USD",
+  price: "$10 USD",
   coverImage: "https://public-files.gumroad.com/klfsem6l988xum9q500t7fzinose",
   purchaseLink: "https://obayuwana.gumroad.com/l/eedjz",
   description:
